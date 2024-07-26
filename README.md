@@ -1,2 +1,2 @@
-# Portfolio
-Portfolio
+Hello and welcome to my portfolio! 
+I’m a passionate Python Developer with a knack for creating web solutions using HTML, CSS, and JavaScript. I thrive in Linux environments, where I love to build applications. I also have a keen interest in cybersecurity and enjoy diving into bug bounty challenges. I’m always on the lookout for exciting new projects and opportunities. Feel free to explore my work and see how we can collaborate!
