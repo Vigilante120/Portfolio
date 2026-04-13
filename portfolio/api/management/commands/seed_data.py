@@ -15,7 +15,7 @@ class Command(BaseCommand):
             name="Nishant Bhandari",
             title="Software Engineer",
             email="bhandarinishant32@gmail.com",
-            phone="+916239689030",
+            # phone="+916239689030",
             github="https://github.com/Vigilante120",
             linkedin="https://linkedin.com/in/nishant-bhandari",
             instagram="nishantintech",

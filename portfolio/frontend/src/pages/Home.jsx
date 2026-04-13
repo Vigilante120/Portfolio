@@ -2,7 +2,6 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { FiGithub, FiLinkedin, FiMail, FiExternalLink } from 'react-icons/fi';
 import { FaInstagram } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
@@ -45,9 +44,9 @@ const Home = ({ profile }) => {
             {profile.summary}
           </motion.p>
           <motion.div className="hero-cta" variants={fadeUp} custom={4}>
-            <Link to="/projects" className="btn btn-primary">
+            <a href="#projects" className="btn btn-primary">
               <FiExternalLink /> View My Work
-            </Link>
+            </a>
             <a
               href={`https://instagram.com/${profile.instagram}`}
               target="_blank"
@@ -56,9 +55,9 @@ const Home = ({ profile }) => {
             >
               <FaInstagram /> @{profile.instagram}
             </a>
-            <Link to="/contact" className="btn btn-outline">
+            <a href="#contact" className="btn btn-outline">
               <FiMail /> Get In Touch
-            </Link>
+            </a>
           </motion.div>
           <motion.div className="social-links" variants={fadeUp} custom={5}>
             {profile.github && (
