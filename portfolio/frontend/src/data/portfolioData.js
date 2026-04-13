@@ -85,6 +85,21 @@ export const projects = [
       'Microservices architecture for scalability',
     ],
   },
+
+  {
+    id: 4,
+    title: 'Punjabi Jewellery Website',
+    description:
+      'Built and managed an e-commerce storefront for authentic Punjabi jewellery with a clean browsing experience and conversion-focused product pages.',
+    tech_stack: 'Shopify, HTML, CSS, JavaScript, Razorpay',
+    live_url: 'https://punjabijewellery.in/',
+    highlights_list: [
+      'Developed and customized a Shopify-based jewellery storefront',
+      'Implemented secure online checkout and payment flow with Razorpay',
+      'Optimized product imagery and page structure for faster browsing',
+      'Improved catalog navigation and product discovery for better conversions',
+    ],
+  },
   {
     id: 99,
     title: 'More Projects Coming Soon...',
