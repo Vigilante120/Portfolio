@@ -100,6 +100,13 @@ export const projects = [
       'Improved catalog navigation and product discovery for better conversions',
     ],
   },
+{
+    id: 5,
+    title: 'Rent Tracker',
+    description: 'A full-stack web application for tracking rented items, dues, and debts. It features a secure REST API with JWT authentication, Google Sign-In integration, and automated expiry date tracking for rentals.',
+    tech_stack: 'React (Vite), Django, PostgreSQL, JWT Auth, Vercel, Render',
+    live_url: 'https://rent-tracker-xi.vercel.app/',
+  },
   {
     id: 99,
     title: 'More Projects Coming Soon...',

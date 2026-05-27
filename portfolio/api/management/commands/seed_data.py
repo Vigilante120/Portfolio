@@ -20,11 +20,11 @@ class Command(BaseCommand):
             linkedin="https://linkedin.com/in/nishant-bhandari",
             instagram="nishantintech",
             summary=(
-                "Software Engineer with hands-on experience in full-stack development "
+                "Software Engineer with hands on experience in full-stack development "
                 "and automated data extraction. Proficient in architecting robust backends "
                 "with Python, Django, and FastAPI, while implementing modern AI solutions "
-                "to solve real-world problems. A proactive problem-solver with a track record "
-                "of deploying end-to-end projects, from web scraping systems to spiritual "
+                "to solve real world problems. A proactive problem solver with a track record "
+                "of deploying end to end projects, from web scraping systems to spiritual "
                 "and client-focused web platforms."
             ),
             skills_languages="Python, React, HTML, CSS, JavaScript, SQL",
@@ -108,7 +108,7 @@ class Command(BaseCommand):
         Project.objects.create(
             title="AI Helpdesk – Support Automation Platform",
             description=(
-                "Enterprise-grade AI-powered helpdesk system with automated ticket triage, "
+                "Enterprise grade AI powered helpdesk system with automated ticket triage, "
                 "classification, and response generation. Full-stack application with "
                 "React 18, Node.js/Express, MongoDB, Redis, and Python FastAPI microservices."
             ),
